@@ -17,7 +17,7 @@ describe('PostFormComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+    expect(component).not.toBeTruthy();
   });
 
   it('should fill input title correctly', () => {
